@@ -11,3 +11,7 @@ tasks:
       - hugo
       - cp -r public/* docs/
     silent: true
+  serve:
+    cmds:
+      - hugo server -D
+    silent: true
