@@ -11,7 +11,19 @@ tasks:
       - hugo
       - cp -r public/* docs/
     silent: true
+
   serve:
     cmds:
       - hugo server -D
+    silent: true
+
+  clean:
+    cmds:
+      - rm -rf public
+      - rm -rf docs/*
+    silent: true
+
+  new-post:
+    cmds:
+      - hugo new "content/posts/{{.CLI_ARGS}}.md" -k posts
     silent: true

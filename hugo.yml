@@ -1,13 +1,13 @@
 baseURL: https://ionrover2.github.io/blog/
 languageCode: en-us
-title: Game reviews 
+title: Games and Tech
 theme: hugo-coder
 
 paginate: 5
 
 params:
-  author: "cryodeus"
-  info: "Full stack devops master and passionate gamer"
+  author: "Tucker Hall"
+  info: "Full stack dev(sec)ops master and passionate gamer"
   keywords: "games, dev, tech, reviews, tutorials"
   avatarurl: ./profilepic.jpg
   since: 2024
