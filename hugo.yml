@@ -1,39 +1,42 @@
 baseURL: https://ionrover2.github.io/blog/
 languageCode: en-us
-title: Game Blog
-theme: PaperMod
+title: Game reviews 
+theme: hugo-coder
+
+paginate: 5
 
 params:
-  ShowCodeCopyButtons: true
-  ShowPostNavLinks: true
+  author: "cryodeus"
+  info: "Full stack devops master and passionate gamer"
+  keywords: "games, dev, tech, reviews, tutorials"
+  avatarurl: ./profilepic.jpg
+  since: 2024
+  colorscheme: "auto"
+  hidecolorchemetoggle: false
 
-  profileMode:
-    enabled: true
-    title: "Games and Dev, But Not Both" # optional default will be site title
-    subtitle: "Just some Game reviews and cool things I'm doing"
-    imageUrl: "./profilepic.jpg" # optional
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: Posts
-        url: "/posts/"
-  socialIcons: # optional
-    - name: "github"
-      url: "https://github.com/ionrover2"
-    - name: "twitter"
-      url: "https://twitter.com/ionrover2"
+  social:
+    - name: Github
+      icon: "fa-brands fa-github fa-2x"
+      weight: 1
+      url: https://github.com/ionrover2
+
+taxonomies:
+  category: categories
+  tag: tags
+  author: authors
+  series: series
+
 menu:
   main:
     - identifier: posts
-      name: posts
+      name: Posts
       url: /posts/
       weight: 1
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
-      weight: 10
+      weight: 2
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
-      weight: 20
+      weight: 3
