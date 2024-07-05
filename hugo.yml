@@ -1,0 +1,39 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Game Blog
+theme: PaperMod
+
+params:
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+
+  profileMode:
+    enabled: true
+    title: "Games and Dev, But Not Both" # optional default will be site title
+    subtitle: "Just some Game reviews and cool things I'm doing"
+    imageUrl: "./profilepic.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts/"
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/ionrover2"
+    - name: "twitter"
+      url: "https://twitter.com/ionrover2"
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 1
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
