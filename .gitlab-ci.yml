@@ -7,5 +7,5 @@ pages:
     paths:
       - public
   script:
-    - apt update; apt install hugo
+    - apt update; apt install hugo -y
     - hugo
