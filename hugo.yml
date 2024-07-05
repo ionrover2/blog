@@ -19,7 +19,14 @@ params:
       icon: "fa-brands fa-github fa-2x"
       weight: 1
       url: https://github.com/ionrover2
-
+    - name: Twitter
+      icon: "fa-brands fa-twitter fa-2x"
+      weight: 2
+      url: https://twitter.com/ionrover2
+    - name: LinkedIn
+      icon: "fa-brands fa-linkedin fa-2x"
+      weight: 3
+      url: https://www.linkedin.com/in/ionrover2/
 taxonomies:
   category: categories
   tag: tags

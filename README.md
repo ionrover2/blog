@@ -1,3 +1,3 @@
 # Blog
 
-simple hugo blog using papermod
+simple hugo blog using hugo-coder
