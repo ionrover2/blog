@@ -1,9 +1,6 @@
 # https://taskfile.dev
 
-version: '3'
-
-vars:
-  GREETING: Hello, World!
+version: "3"
 
 tasks:
   default:
@@ -20,7 +17,8 @@ tasks:
   clean:
     cmds:
       - rm -rf public
-      - rm -rf docs/*
+      - rm -rf docs
+      - rm -rf resources
     silent: true
 
   new-post:
